@@ -10,8 +10,8 @@ setTimeout(() => mohamed.send(` **.. Welcome To, - __Future__ Community. :leaves
 });
 
 client.on('message', msg => {
-  if (msg.content === ' **.. Welcome To, - __Future__ Community. :leaves::tulip:..** ') {      
-    msg.channel.send(" . ")
+  if (msg.content === '**.. Welcome To, - __Future__ Community. :leaves::tulip:..**') {      
+    msg.channel.send(".")
   }
 });
 
