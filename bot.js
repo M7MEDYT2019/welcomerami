@@ -9,10 +9,5 @@ setTimeout(() => mohamed.send(` **' Welcome To Server Magic , منور يا قل
 }
 });
 
-client.on('message', msg => {
-  if (msg.content === '**' Welcome To Server Magic , منور يا قلب :heart:**') {      
-    msg.channel.send(".")
-  }
-});
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
